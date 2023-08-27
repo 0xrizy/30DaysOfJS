@@ -1,0 +1,47 @@
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a dark background */
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+.header {
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+/* Style the heading */
+.heading1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Style the main content */
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Style the large message paragraph */
+.para1 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Add additional styles to make the message prominent */
+#output1 {
+    background-color: #222;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
